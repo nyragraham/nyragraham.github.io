@@ -21,6 +21,6 @@ The final major portion of the design involved integration with the rest of the 
 The polycarbonate was more rigid than acrylic and was easy to machine (we just had it water jetted). I decided to mount everything to a plate first because it allowed for more exact positioning of the pieces of the analysis system such as the motor, carousel, pumps, and digital microscope. Using a plate also decreased the mounting time of everything by a lot, significantly improving the testability and operability. 
 The motor was mounted on slots to allow the belt to be tensioned properly. The pumps were enclosed in 3D-printed cases to remove the risk of leakage. The digital microscope was also mounted on slots to allow the focus to be changed depending on our needs. Overall, it was a good call to consolidate all the pieces of this system onto one plate and would’ve been much harder to integrate had they mounted directly to the frame.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
+{% include image.html url="http://www.gratisography.com" image="projects/proj-1/analysis.jpg" %}
 
 {% include image.html url="http://www.gratisography.com" image="projects/proj-1/wall.jpg" %}
