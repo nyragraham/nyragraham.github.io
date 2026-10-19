@@ -1,0 +1,21 @@
+---
+title: Projects
+permalink: /projects/
+---
+<h1>Projects</h1>
+{% assign projects = site.projects | sort: "order" %}
+<ul class="project-list">
+  {% for p in projects %}
+  <li>
+    <a class="thumb" href="{{ p.url | relative_url }}">
+      {% if p.thumbnail %}<img src="{{ p.thumbnail | relative_url }}" alt="{{ p.title }}" loading="lazy">{% endif %}
+    </a>
+    <div>
+      <h2><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
+      {% if p.subtitle %}<p class="meta">{{ p.subtitle }}</p>{% endif %}
+      <p>{{ p.summary }}</p>
+      <a class="more" href="{{ p.url | relative_url }}">Read more &rarr;</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
