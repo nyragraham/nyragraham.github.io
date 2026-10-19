@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<div class="about{% if page.photo %} has-photo{% endif %}">
+  {% if page.photo %}<img class="about-photo" src="{{ page.photo | relative_url }}" alt="{{ site.title }}">{% endif %}
+  <div class="about-text">
+    {{ content }}
+  </div>
+</div>

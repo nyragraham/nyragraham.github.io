@@ -16,3 +16,6 @@ thumbnail: /assets/projects/project-name/thumb.jpg
 order: 1                             # position on the Projects page
 ---
 ```
+
+Optional: `tags: [SolidWorks, Arduino]` shows small labels under the title.
+Wrap images in `<div class="gallery" markdown="1">...</div>` to show them side by side.
