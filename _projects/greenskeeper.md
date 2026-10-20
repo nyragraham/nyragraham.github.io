@@ -33,12 +33,10 @@ GreensKeeper is a smart plant shelf designed to automate watering, lighting, and
 - Flask-based dashboard with live humidity data, pump/light status, and a camera feed.
 - Modular hardware/software architecture supporting multi-plant scalability.
 
-<!-- Website demonstration video goes here, e.g.
 <figure>
-  <video controls preload="metadata" src="{{ '/assets/projects/greenskeeper/demo.mp4' | relative_url }}"></video>
+  <video controls playsinline preload="metadata" poster="{{ '/assets/projects/greenskeeper/website-demo-poster.jpg' | relative_url }}" src="{{ '/assets/projects/greenskeeper/website-demo.mp4' | relative_url }}"></video>
   <figcaption>Website demonstration</figcaption>
 </figure>
--->
 
 ## Results
 

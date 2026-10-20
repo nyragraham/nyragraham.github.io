@@ -18,12 +18,20 @@ Throughout this project, I enhanced my manual machining, organization, CAD (Fusi
 | Requirement | 1 L/min |
 
 <figure>
-  <video controls muted playsinline preload="metadata" poster="{{ '/assets/projects/water-pump/poster.jpg' | relative_url }}" src="{{ '/assets/projects/water-pump/pump-test.mp4' | relative_url }}"></video>
+  <img src="{{ '/assets/projects/water-pump/assembled.jpg' | relative_url }}" alt="Assembled double-acting Scotch-yoke water pump">
+  <figcaption>Assembled pump</figcaption>
+</figure>
+
+<figure>
+  <img src="{{ '/assets/projects/water-pump/cad-render.jpg' | relative_url }}" alt="Fusion 360 render of the water pump">
+  <figcaption>Fusion 360 render</figcaption>
+</figure>
+
+<figure>
+  <video controls playsinline preload="metadata" poster="{{ '/assets/projects/water-pump/pump-test-poster.jpg' | relative_url }}" src="{{ '/assets/projects/water-pump/pump-test.mp4' | relative_url }}"></video>
   <figcaption>Pump test</figcaption>
 </figure>
 
-<!-- Links: add report PDF to assets/projects/water-pump/
 ## Links
 
 - [Water Pump Technical Report (PDF)]({{ '/assets/projects/water-pump/water-pump-report.pdf' | relative_url }})
--->

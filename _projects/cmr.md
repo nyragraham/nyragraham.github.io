@@ -2,7 +2,7 @@
 title: Cornell Mars Rover
 subtitle: Team Lead & Systems Engineer · 2021 – 2025
 summary: Led Cornell's 60+ person Mars Rover team through design, build, and competition at the University Rover Challenge, with hands-on work in rugged mechanical design, actuators, harnessing, and rapid prototyping.
-# thumbnail: /assets/projects/cmr/thumb.jpg
+thumbnail: /assets/projects/cmr/thumb.jpg
 order: 2
 tags: [CAN Bus, Wiring Harnesses, Arduino, Actuators, Additive Manufacturing, Sheet Metal, Machining, Systems Engineering]
 ---
@@ -11,10 +11,14 @@ tags: [CAN Bus, Wiring Harnesses, Arduino, Actuators, Additive Manufacturing, Sh
 **Role:** Team Lead, Mechanical/Electromechanical Integration<br>
 **Years Involved:** 2021 – 2025 (AstroTech Subteam Member → Subteam Lead → Full Team Lead)
 
+<figure>
+  <img src="{{ '/assets/projects/cmr/rover-closeup.jpg' | relative_url }}" alt="Cornell Mars Rover in the Utah desert">
+  <figcaption>The rover at the University Rover Challenge in Hanksville, Utah</figcaption>
+</figure>
+
 ## Overview
 
 Led Cornell's Mars Rover Project Team through design, build, and competition at the University Rover Challenge, an international robotics competition in Utah's Mars-analog desert. Managed a 60+ person interdisciplinary team and contributed directly to rugged mechanical design, actuator integration, electrical harnessing, and rapid prototyping for extreme environments.
-
 ## Rugged Mechanical Systems
 
 - Designed and field-tested rover systems against sand, dust storms, heat, and vibration.
@@ -52,6 +56,11 @@ Led Cornell's Mars Rover Project Team through design, build, and competition at 
 - Managed competition logistics and led debugging under pressure in Utah.
 - Recovered from a failed drive motor and overheating Jetson computer on-site.
 - Developed contingency workflows to keep the rover operational despite harsh terrain and environmental stressors.
+
+<figure>
+  <img src="{{ '/assets/projects/cmr/rover-landscape.jpg' | relative_url }}" alt="Rover operating in the Mars-analog desert">
+  <figcaption>Field testing in Utah's Mars-analog desert</figcaption>
+</figure>
 
 ## Skills Demonstrated
 

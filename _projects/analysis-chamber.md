@@ -27,8 +27,13 @@ If the motor spins in one direction, the sprag clutch will prevent rotation of t
 The second direction of motor rotation allows for the rotation of the cuvettes, a necessity to make sure every cuvette gets filled and analyzed. The ridge profile contains a small "hook" spot that catches the teeth and spins the entire system.
 
 <figure>
-  <video controls playsinline preload="metadata" poster="{{ '/assets/projects/analysis-chamber/carousel-poster.jpg' | relative_url }}" src="{{ '/assets/projects/analysis-chamber/carousel-motion.mp4' | relative_url }}"></video>
-  <figcaption>Carousel lowering and raising cuvettes into the spectrometer</figcaption>
+  <img src="{{ '/assets/projects/analysis-chamber/carousel-photo.jpg' | relative_url }}" alt="Cuvette carousel mounted on the rover">
+  <figcaption>Cuvette carousel with belt drive, mounted on the rover</figcaption>
+</figure>
+
+<figure>
+  <video controls playsinline preload="metadata" poster="{{ '/assets/projects/analysis-chamber/insertion-poster.jpg' | relative_url }}" src="{{ '/assets/projects/analysis-chamber/insertion.mp4' | relative_url }}"></video>
+  <figcaption>Cuvette lowering into and rising out of the spectrometer</figcaption>
 </figure>
 
 ## Limit Switches
@@ -45,12 +50,10 @@ To fill my system, a separate peristaltic pump was used to pump the samples from
 
 There were five cuvettes per site, totaling twenty cuvettes that needed to be filled and analyzed during the competition. The science members required that the amount of time between the cuvettes filling and getting analyzed must be the same within each sample site for the most accurate data. To make this request a reality, I communicated a filling pattern that involved filling certain cuvettes while analyzing others to the Software and Electrical sub-teams.
 
-<!-- Filling video goes here, e.g.
 <figure>
-  <video controls playsinline preload="metadata" src="{{ '/assets/projects/analysis-chamber/filling.mp4' | relative_url }}"></video>
-  <figcaption>Cuvette filling</figcaption>
+  <video controls playsinline preload="metadata" poster="{{ '/assets/projects/analysis-chamber/filling-poster.jpg' | relative_url }}" src="{{ '/assets/projects/analysis-chamber/filling.mp4' | relative_url }}"></video>
+  <figcaption>Cuvettes filling through the flow restrictors on the lid</figcaption>
 </figure>
--->
 
 ## Mounting Plate
 
