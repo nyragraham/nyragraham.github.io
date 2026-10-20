@@ -19,6 +19,11 @@ tags: [ROS 2, Raspberry Pi 5, Intel RealSense D455, ODrive, LQR Control, TensorF
 
 Social isolation in shared spaces threatens community cohesion and well-being. Inspired by public art projects, our robot invites individuals to collaborate on a shared LEGO structure by using expressive eye tracking, autonomous turning, and servo-actuated drawer movement. Field deployments in Cornell University spaces showed the robot effectively acted as a social catalyst: diverse participants contributed to a shared structure, and strangers initiated conversations about the robot.
 
+<figure>
+  <video controls playsinline preload="metadata" poster="{{ '/assets/projects/hri-brick-by-brick/video-poster.jpg' | relative_url }}" src="{{ '/assets/projects/hri-brick-by-brick/brick-by-brick-video.mp4' | relative_url }}"></video>
+  <figcaption>Project video: Bricky the social robot in the field</figcaption>
+</figure>
+
 ## Design Process
 
 Low-fidelity prototypes tested whether a static, table-like robot with a LEGO base plate and a hidden operator presenting bricks could engage passersby. They showed that a front-facing drawer and a face were essential, and that mobility would help turn curiosity into full interactions.
