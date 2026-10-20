@@ -3,7 +3,7 @@ title: Water Pump
 subtitle: Team Project · 6 students
 summary: Designed, machined, and tested a double-acting Scotch-yoke piston pump that moved 10.5 L/min, more than ten times the 1 L/min requirement.
 thumbnail: /assets/projects/water-pump/thumb.jpg
-order: 3
+order: 7
 tags: [Fusion 360, Manual Machining, Part Drawings, Assembly]
 ---
 

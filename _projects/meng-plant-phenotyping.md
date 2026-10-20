@@ -3,7 +3,7 @@ title: Automated 3D Plant Phenotyping
 subtitle: M.Eng. Project, Mechanical Engineering (Robotics) · Fall 2025
 summary: An end-to-end pipeline that turns Intel RealSense RGB-D captures of hydroponic plants into 3D leaf tip and base trajectories, using Mask R-CNN leaf segmentation and PCA-based geometry.
 thumbnail: /assets/projects/meng-plant-phenotyping/thumb.jpg
-order: 5
+order: 4
 tags: [Python, Intel RealSense D435i, Open3D, PyTorch, Mask R-CNN, LabelMe, PCA, Point Clouds]
 ---
 

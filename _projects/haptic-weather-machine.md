@@ -3,7 +3,7 @@ title: "The Weather Machine: Multi-modal Haptics"
 subtitle: MAE 6800, Design and Control of Haptic Systems · Fall 2025
 summary: A palm-sized haptic interface that lets users feel simplified weather through Peltier heating and cooling, airflow from four fans, and seven vibration motors, evaluated in a user study.
 thumbnail: /assets/projects/haptic-weather-machine/thumb.jpg
-order: 7
+order: 6
 tags: [Arduino Mega, Peltier Modules, ERM & LRA Motors, DRV2605L, PWM, Laser Cutting, User Study, MATLAB]
 ---
 

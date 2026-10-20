@@ -3,7 +3,7 @@ title: Analysis Chamber
 subtitle: Cornell Mars Rover · AstroTech · 2022 – 2023
 summary: Independently designed and integrated a rover-mounted spectrometer carousel that fills, positions, and analyzes 20 soil-sample cuvettes using a single motor, a sprag clutch, and a ridge profile.
 thumbnail: /assets/projects/analysis-chamber/thumb.jpg
-order: 4
+order: 3
 tags: [Autodesk Inventor, Mechanism Design, Belt Drive, Sprag Clutch, Limit Switches, 3D Printing, Polycarbonate, System Integration]
 ---
 
