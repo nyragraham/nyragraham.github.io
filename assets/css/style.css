@@ -74,7 +74,23 @@ figcaption {
 /* Side-by-side images: wrap in <div class="gallery"> */
 .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 24px 0; }
 .gallery img, .gallery figure { margin: 0; }
+.gallery.cols-2 { grid-template-columns: repeat(2, 1fr); align-items: start; }
 .prose > p > img { border: 1px solid var(--line); padding: 16px; border-radius: 6px; }
+
+/* Project "at a glance" box */
+.glance {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 8px 16px;
+  margin: 32px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-soft);
+  font-size: 15px;
+}
+.glance dt { font-weight: 600; }
+.glance dd { margin: 0; }
 
 table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 24px 0; }
 th, td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; }
@@ -132,4 +148,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
   .project-grid { grid-template-columns: 1fr; gap: 20px; }
   .about.has-photo { grid-template-columns: 1fr; gap: 24px; }
   .about-photo { max-width: 240px; }
+  .gallery.cols-2 { grid-template-columns: 1fr; }
+  .glance { grid-template-columns: 1fr; gap: 2px; }
+  .glance dd + dt { margin-top: 8px; }
 }
