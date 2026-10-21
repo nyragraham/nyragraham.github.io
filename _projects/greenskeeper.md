@@ -3,7 +3,7 @@ title: "GreensKeeper: Automated Plant Care"
 subtitle: Senior Design Project · April – May 2025
 summary: A smart plant shelf that automates watering, lighting, and monitoring for houseplants, controlled from a Raspberry Pi and a local Flask web dashboard.
 thumbnail: /assets/projects/greenskeeper/thumb.jpg
-order: 1
+order: 7
 tags: [Raspberry Pi, Python, Flask, OpenCV, APScheduler, PCA9685, ADS1115, Peristaltic Pump, 3D Printing]
 ---
 

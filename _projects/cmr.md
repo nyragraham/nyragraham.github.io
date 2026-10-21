@@ -3,7 +3,7 @@ title: Cornell Mars Rover
 subtitle: Team Lead & Systems Engineer · 2021 – 2025
 summary: Led Cornell's 65-person Mars Rover team through design, build, and competition at the University Rover Challenge, with hands-on work in rugged mechanical design, actuators, harnessing, and rapid prototyping.
 thumbnail: /assets/projects/cmr/thumb.jpg
-order: 2
+order: 1
 tags: [CAN Bus, Wiring Harnesses, Arduino, Actuators, Additive Manufacturing, Sheet Metal, Machining, Systems Engineering]
 ---
 
