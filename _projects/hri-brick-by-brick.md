@@ -3,7 +3,7 @@ title: "Brick by Brick: A Social Robot"
 subtitle: Course Project, Cornell University · HRI '26 Student Design Challenge
 summary: A mobile social robot that invites strangers in public spaces to build a shared LEGO structure together, using person tracking, an LQR heading controller, and an actuated drawer.
 thumbnail: /assets/projects/hri-brick-by-brick/thumb.jpg
-order: 5
+order: 6
 tags: [ROS 2, Raspberry Pi 5, Intel RealSense D455, ODrive, LQR Control, TensorFlow Lite, Arduino, Human-Robot Interaction]
 ---
 

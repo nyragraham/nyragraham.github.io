@@ -61,7 +61,8 @@ figure {
   background: #fff;
 }
 figure img, figure video, figure iframe { margin: 0 auto; border-radius: 2px; }
-figure.portrait img { max-height: 560px; width: auto; }
+figure.portrait img, figure.portrait video { max-height: 560px; width: auto; }
+figure.phone video { max-height: 720px; }
 figcaption {
   font-size: 14px;
   color: var(--muted);
