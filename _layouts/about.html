@@ -2,8 +2,16 @@
 layout: default
 ---
 <div class="about{% if page.photo %} has-photo{% endif %}">
-  {% if page.photo %}<img class="about-photo" src="{{ page.photo | relative_url }}" alt="{{ site.title }}">{% endif %}
+  {% if page.photo %}<div class="about-photo"><img src="{{ page.photo | relative_url }}" alt="{{ site.title }}"></div>{% endif %}
   <div class="about-text">
     {{ content }}
+    {% if page.resume or page.linkedin or page.email or page.phone %}
+    <ul class="about-links">
+      {% if page.resume %}<li><a href="{{ page.resume | relative_url }}">Résumé (PDF)</a></li>{% endif %}
+      {% if page.linkedin %}<li><a href="{{ page.linkedin }}">LinkedIn</a></li>{% endif %}
+      {% if page.email %}<li><a href="mailto:{{ page.email }}">{{ page.email }}</a></li>{% endif %}
+      {% if page.phone %}<li><a href="tel:{{ page.phone_tel }}">{{ page.phone }}</a></li>{% endif %}
+    </ul>
+    {% endif %}
   </div>
 </div>
